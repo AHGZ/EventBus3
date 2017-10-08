@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/main2_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="tv1"
+        android:text="第二个页面，第一条数据" />
+
+    <TextView
+        android:id="@+id/main2_tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="tv2"
+        android:text="第二个页面，第二条数据" />
+    <TextView
+        android:id="@+id/main2_tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="第二个页面，第三条数据" />
+</LinearLayout>
